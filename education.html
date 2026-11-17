@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Приклад розкладу занять та інформація про навчальний процес.">
+    <title>Навчання — Сайт факультету</title>
+    <link rel="icon" href="./image/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="./index.html">
+            <img class="brand__logo" src="./image/logo.svg" alt="Навчальний логотип сайту" width="58" height="58">
+            <span class="brand__text"><span class="brand__title">ЗНУ</span><span class="brand__subtitle">Факультет фізичного виховання, здоров'я та туризму</span></span>
+        </a>
+        <nav class="site-nav" aria-label="Головна навігація">
+            <ul class="header__list-menu">
+                <li><a class="header__link" href="./index.html">Головна</a></li>
+                <li><a class="header__link" href="./news.html">Новини</a></li>
+                <li><a class="header__link" href="./education.html" aria-current="page">Навчання</a></li>
+                <li><a class="header__link" href="./contacts.html">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Навчання</h1>
+        <p class="section-description">Навчальний процес, розклад занять та інформація про самостійну роботу.</p>
+
+        <section class="page-section">
+            <h2>Розклад навчальних занять</h2>
+            <p>Наведений нижче розклад є демонстраційним прикладом структури HTML-таблиці. Перед здачею роботи замініть дисципліни, час і аудиторії на фактичний розклад студента на поточний семестр.</p>
+
+            <div class="table-wrapper">
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">День</th>
+                            <th scope="col">Час</th>
+                            <th scope="col">Дисципліна</th>
+                            <th scope="col">Тип заняття</th>
+                            <th scope="col">Аудиторія</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Понеділок</td><td>09:00–10:30</td><td>Інформатика</td><td>Лекція</td><td>101</td></tr>
+                        <tr><td>Понеділок</td><td>10:40–12:10</td><td>Англійська мова</td><td>Практичне</td><td>205</td></tr>
+                        <tr><td>Вівторок</td><td>09:00–10:30</td><td>Фізичне виховання</td><td>Практичне</td><td>Спортзал</td></tr>
+                        <tr><td>Вівторок</td><td>10:40–12:10</td><td>Основи програмування</td><td>Лабораторна</td><td>302</td></tr>
+                        <tr><td>Середа</td><td>09:00–10:30</td><td>Інформаційні технології</td><td>Лекція</td><td>204</td></tr>
+                        <tr><td>Середа</td><td>10:40–12:10</td><td>Основи програмування</td><td>Практичне</td><td>302</td></tr>
+                        <tr><td>Четвер</td><td>09:00–10:30</td><td>Іноземна мова</td><td>Практичне</td><td>205</td></tr>
+                        <tr><td>П'ятниця</td><td>10:40–12:10</td><td>Інформатика</td><td>Лабораторна</td><td>101</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="page-section">
+            <h2>Організація навчального процесу</h2>
+            <p>Навчальний процес може включати лекційні, практичні та лабораторні заняття. Важливими складовими є самостійне опрацювання матеріалів, виконання завдань і підготовка до контролю знань.</p>
+        </section>
+
+        <section class="page-section">
+            <h2>Самостійна робота</h2>
+            <p>Самостійна робота допомагає закріпити матеріал, розвивати критичне мислення та формувати практичні навички за обраною спеціальністю.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Запорізький національний університет</p>
+        <p>Факультет фізичного виховання, здоров'я та туризму</p>
+        <p class="footer__copyright">© 2026. Навчальний вебпроєкт. Практична робота №3.</p>
+    </footer>
+</body>
+</html>

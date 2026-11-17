@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Демонстраційна форма зворотного зв'язку та контактна інформація.">
+    <title>Контакти — Сайт факультету</title>
+    <link rel="icon" href="./image/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="./index.html">
+            <img class="brand__logo" src="./image/logo.svg" alt="Навчальний логотип сайту" width="58" height="58">
+            <span class="brand__text"><span class="brand__title">ЗНУ</span><span class="brand__subtitle">Факультет фізичного виховання, здоров'я та туризму</span></span>
+        </a>
+        <nav class="site-nav" aria-label="Головна навігація">
+            <ul class="header__list-menu">
+                <li><a class="header__link" href="./index.html">Головна</a></li>
+                <li><a class="header__link" href="./news.html">Новини</a></li>
+                <li><a class="header__link" href="./education.html">Навчання</a></li>
+                <li><a class="header__link" href="./contacts.html" aria-current="page">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Контакти</h1>
+        <p class="section-description">Заповніть демонстраційну форму, щоб ознайомитися з елементами HTML-форм та їхніми атрибутами.</p>
+
+        <section class="page-section">
+            <h2>Форма зворотного зв'язку</h2>
+            <form class="contact-form" action="#" method="get">
+                <div class="form-group">
+                    <label for="fullname">Ваше ім'я:</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Введіть ваше ім'я" minlength="2" maxlength="60" autocomplete="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Електронна пошта:</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" autocomplete="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Номер телефону:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+380XXXXXXXXX" autocomplete="tel">
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Тема звернення:</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Оберіть тему звернення</option>
+                        <option value="education">Питання щодо навчання</option>
+                        <option value="documents">Навчальні документи</option>
+                        <option value="schedule">Розклад занять</option>
+                        <option value="other">Інше питання</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Ваше повідомлення:</label>
+                    <textarea id="message" name="message" rows="6" minlength="5" placeholder="Введіть ваше повідомлення..." required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label class="checkbox-label" for="agreement">
+                        <input type="checkbox" id="agreement" name="agreement" value="yes" required>
+                        <span>Погоджуюся на обробку введених даних.</span>
+                    </label>
+                </div>
+
+                <div class="form-buttons">
+                    <button class="button" type="submit">Надіслати повідомлення</button>
+                    <button class="button button--secondary" type="reset">Очистити форму</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="page-section">
+            <h2>Інформація про факультет</h2>
+            <p><strong>Університет:</strong> Запорізький національний університет.</p>
+            <p><strong>Факультет:</strong> Факультет фізичного виховання, здоров'я та туризму.</p>
+            <p>Форма на цій сторінці є навчальним прикладом. Вона демонструє HTML-елементи та перевірку обов'язкових полів браузером, але не надсилає повідомлення до університету.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Запорізький національний університет</p>
+        <p>Факультет фізичного виховання, здоров'я та туризму</p>
+        <p class="footer__copyright">© 2026. Навчальний вебпроєкт. Практична робота №3.</p>
+    </footer>
+</body>
+</html>

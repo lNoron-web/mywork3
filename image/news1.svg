@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-label="Ілюстрація навчального заняття">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#dbeafe"/><stop offset="1" stop-color="#93c5fd"/></linearGradient><linearGradient id="desk" x2="0" y2="1"><stop stop-color="#64748b"/><stop offset="1" stop-color="#334155"/></linearGradient></defs>
+<rect width="800" height="480" fill="url(#bg)"/><circle cx="675" cy="95" r="55" fill="#fff" opacity=".45"/>
+<rect x="70" y="68" width="310" height="205" rx="18" fill="#fff" opacity=".75"/><rect x="95" y="92" width="260" height="155" rx="8" fill="#172554"/><path d="M120 130h205M120 160h165M120 190h185" stroke="#93c5fd" stroke-width="12" stroke-linecap="round"/>
+<path d="M0 390h800v90H0z" fill="url(#desk)"/>
+<g><circle cx="500" cy="175" r="48" fill="#f1c6a8"/><path d="M453 168c5-58 92-74 103 0-22-16-70-18-103 0" fill="#334155"/><path d="M422 372c5-108 45-154 78-154s78 46 84 154" fill="#2563eb"/><path d="M470 247l30 47 31-47" fill="#dbeafe"/><path d="M500 294v78" stroke="#172554" stroke-width="8"/></g>
+<g><circle cx="665" cy="202" r="40" fill="#d9a987"/><path d="M625 198c1-51 77-65 85-2-22-12-56-15-85 2" fill="#1e293b"/><path d="M602 372c3-84 33-124 63-124s61 40 64 124" fill="#0f766e"/><path d="M631 260l34 37 34-37" fill="#ccfbf1"/></g>
+<rect x="430" y="340" width="290" height="18" rx="9" fill="#f8fafc" opacity=".9"/><rect x="457" y="306" width="110" height="28" rx="5" fill="#fbbf24"/><rect x="585" y="306" width="92" height="28" rx="5" fill="#fff"/>
+<text x="90" y="440" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#fff">НАВЧАННЯ ТА РОЗВИТОК</text>
+</svg>

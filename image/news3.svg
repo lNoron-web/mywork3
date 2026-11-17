@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-label="Ілюстрація цифрових технологій в освіті">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#ede9fe"/><stop offset="1" stop-color="#c4b5fd"/></linearGradient><linearGradient id="screen" x2="1" y2="1"><stop stop-color="#1e3a8a"/><stop offset="1" stop-color="#2563eb"/></linearGradient></defs>
+<rect width="800" height="480" fill="url(#bg)"/><circle cx="125" cy="110" r="65" fill="#fff" opacity=".5"/><circle cx="700" cy="350" r="95" fill="#fff" opacity=".3"/>
+<rect x="168" y="65" width="465" height="280" rx="22" fill="#172554"/><rect x="185" y="82" width="431" height="246" rx="12" fill="url(#screen)"/>
+<rect x="220" y="119" width="150" height="16" rx="8" fill="#bfdbfe"/><rect x="220" y="153" width="235" height="9" rx="4" fill="#93c5fd" opacity=".8"/><rect x="220" y="174" width="188" height="9" rx="4" fill="#93c5fd" opacity=".65"/>
+<rect x="220" y="214" width="105" height="75" rx="9" fill="#60a5fa"/><rect x="340" y="214" width="105" height="75" rx="9" fill="#34d399"/><rect x="460" y="214" width="105" height="75" rx="9" fill="#fbbf24"/>
+<path d="M120 360h565l-43 42H164z" fill="#64748b"/><path d="M360 345h80l18 16H342z" fill="#94a3b8"/>
+<g transform="translate(80 170)"><circle cx="40" cy="30" r="28" fill="#eabf9f"/><path d="M13 29c2-38 54-46 59-1-17-10-39-10-59 1" fill="#334155"/><path d="M6 66h68l20 143H-12z" fill="#0f766e"/><path d="M11 78l-34 90M70 78l35 90" stroke="#eabf9f" stroke-width="15" stroke-linecap="round"/></g>
+<g fill="none" stroke="#fff" stroke-width="7" opacity=".8"><path d="M690 104v70m-35-35h70"/><circle cx="705" cy="250" r="28"/></g>
+<text x="46" y="448" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#312e81">ЦИФРОВА ОСВІТА</text>
+</svg>
