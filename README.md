@@ -20,9 +20,3 @@ work 3/
 ├── education.html
 └── contacts.html
 ```
-
-Не копіюйте та не замінюйте папку `.git` з іншого проєкту. У цьому архіві її навмисно немає.
-
-## GitHub Pages
-
-У репозиторії відкрийте Settings → Pages. Встановіть Source: `Deploy from a branch`, Branch: `main`, Folder: `/(root)`, натисніть Save.
